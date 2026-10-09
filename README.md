@@ -23,5 +23,4 @@ An end-to-end, layout-aware Retrieval-Augmented Generation (RAG) system built in
 *   Engineered a **Sliding-Window Retriever** that dynamically pulls a target chunk alongside its chronological neighbors to prevent heading-to-body fragmentation.
 
 ###  Phase 5: RAG Generation (AI Tutor)
-*   Constructed a strict, persona-driven prompt instructing the model to act as an encouraging middle-school chemistry teacher.
-*   Wired retrieved context blocks directly into **`gemini-3.5-flash-lite`** to generate high-accuracy responses relying on friendly analogies while strictly preventing factual hallucinations.
+*   Wired retrieved context blocks directly into **`gemini-3.5-flash-lite`** to generate high-accuracy responses relying on friendly analogies.
